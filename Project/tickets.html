@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order And Buy Your Tickets</title>
+    <link rel="stylesheet" href="ticket.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="event-info">
+            <img src="" alt="">
+            <div class="details">
+                <h2>Event title</h2>
+                <p>Event Date:10/20/2024</p>
+                <p>Event Time: 7:00pm</p>
+                <p>Event Location:Event venue</p>
+            </div>
+        </div>
+        <div class="ticket-selection">
+            <div class="ticket">
+                <h3>General Admission</h3>
+                <p>$25</p>
+                <button onclick="selectTicket('General Admission')">Select</button>
+            </div>
+            <div class="ticket">
+                <h3>VIP</h3>
+                <p>$50</p>
+                <button onclick="selectTicket('Vip')">Select</button>
+            </div>
+            <div class="ticket">
+                <h3>Premium</h3>
+                <p>$75</p>
+                <button onclick="selectTicket('premium')">Select</button>
+            </div>
+        </div>
+    </div>
+    <script src="ticket.js"></script>
+</body>
+</html>
